@@ -1,0 +1,63 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.env
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# 💡 Prevent sensitive config
+.env
+application-dev.properties
+application-prod.properties
+
+# 💡 Maven build files
+/target/
+/logs/
+/*.log
+
+# 💡 IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# 💡 VS Code
+.vscode/
+
+# 💡 OS-generated
+.DS_Store
+Thumbs.db
+
+# 💡 Java-specific
+*.class
+
+# 💡 Node modules (if using frontend)
+node_modules/
+
