@@ -60,4 +60,5 @@ Thumbs.db
 
 # 💡 Node modules (if using frontend)
 node_modules/
+.gitignore
 
